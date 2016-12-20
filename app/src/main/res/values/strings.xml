@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">Brandcheck</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- home -->
+    <string name="home_login">Login</string>
+    <string name="home_signup">Registro</string>
+
+    <!-- login -->
+    <string name="login_recover">Recuperar contraseña</string>
+
+    <!-- signup -->
+
+
+    <string name="GOOGLE_CLOUD_MESSAGING_SENDER_ID">558335147558</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyC1aiBdQKhBivW4uCXr5h_5w5UtU6-y0ic</string>
+
+
+    <!-- recover -->
+
+    <!-- api -->
+
+    <!-- config -->
+    <string name="config_first_name">Nombre</string>
+    <string name="config_last_name">Apellido</string>
+    <string name="config_email">Email</string>
+    <string name="config_company">Empresa</string>
+    <string name="config_send_button">Enviar datos</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <!-- textos de pantalla bienvenida -->
+    <string name="welcome_message">Base de imágenes de las múltiples marcas del mercado chileno, con presencia en los medios masivos de comunicación.</string>
+    <string name="welcome_with_email">Ingresar con mi email</string>
+    <string name="welcome_service_require">Solicitar el servicio</string>
+    <string name="title_activity_signup">SignupActivity</string>
+
+    <!-- textos de la pantalla de registro -->
+    <string name="signup_send">Enviar</string>
+    <string name="signup_firstname">Nombre</string>
+    <string name="signup_lastname">Apellido</string>
+    <string name="signup_email">Email</string>
+    <string name="signup_phone">Teléfono</string>
+    <string name="signup_title">Solicitar servicio</string>
+    <string name="signup_company">Empresa</string>
+    <string name="signup_error_title">Error</string>
+    <string name="signup_problem">Tenemos problemas con tu solicitud, intentalo mas tarde</string>
+
+    <string name="search">Escribe algo</string>
+
+    <!-- textos de la pantalla de login -->
+    <string name="login_message">Ingrese su usuario y contraseña para acceder al sistema.</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Contraseña</string>
+    <string name="login_enter">Ingresar</string>
+    <string name="login_recover_password">Recuperar Contraseña</string>
+    <string name="login_request_service">Solicitar Servicio</string>
+    <string name="title_activity_main_feed">MainFeedActivity</string>
+    <string name="title_activity_recover_password">RecoverPasswordActivity</string>
+    <string name="login_error_title">Error</string>
+    <string name="login_bad_credential">Tu email o contraseñas no son correctos</string>
+    <string name="login_other_405">Ha ocurrido un error inesperado, intentalo mas tarde. Código (405)</string>
+    <string name="login_other">Ha ocurrido un error inesperado, intentalo mas tarde. Código</string>
+    <string name="login_data_error">Debes ingresar todos los campos.</string>
+    <string name="signup_email_error">Debes ingresar un correo electrónico</string>
+
+    <!-- textos de la pantalla de cambio de contraseña -->
+    <string name="recoverpassword_title">Recuperar contraseña</string>
+    <string name="recoverpassword_message">Consectetur adipiscing elit, sed do eiusmod temoor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="recoverpassword_send">Enviar</string>
+    <string name="title_activity_video_detail">VideoDetailActivity</string>
+    <string name="cd_main_image">main image</string>
+    <string name="recoverpassword_error_title">Error</string>
+    <string name="recoverpassword_email_invalid">Debes proporcionar un correo valido.</string>
+    <!-- textos de la pantalla sidebar -->
+    <string name="sidebar_lastactivity">Última actividad</string>
+    <string name="sidebar_my_categories">Mis Rubros</string>
+    <string name="sidebar_my_brands">Mis Marcas</string>
+    <string name="sidebar_notifications">Alertas</string>
+
+
+    <!-- Fontello -->
+    <string name="fontello_logo"></string>
+    <string name="fontello_search"></string>
+    <string name="fontello_x_mark"></string>
+    <string name="fontello_x_mark_masked"></string>
+    <string name="fontello_microfon"></string>
+    <string name="fontello_user"></string>
+    <string name="fontello_password"></string>
+    <string name="fontello_upload"></string>
+    <string name="fontello_heart_empty"></string>
+    <string name="fontello_heart_full"></string>
+    <string name="fontello_drag_and_drop"></string>
+    <string name="fontello_star"></string>
+    <string name="fontello_play"></string>
+    <string name="fontello_play2"></string>
+    <string name="fontello_clock"></string>
+    <string name="fontello_flag"></string>
+    <string name="fontello_logout"></string>
+    <string name="fontello_config"></string>
+    <string name="fontello_bell"></string>
+    <string name="fontello_down"></string>
+    <string name="fontello_check"></string>
+    <string name="fontello_uncheck"></string>
+    <string name="fontello_arrow_right"></string>
+    <string name="fontello_last_hours"></string>
+    <string name="fontello_calendar_empty"></string>
+    <string name="fontello_calendar"></string>
+
+    <!-- textos de pantalla mis marcas -->
+    <string name="mybrand_title">Marcas</string>
+    <string name="title_activity_config">ConfigActivity</string>
+    <string name="home_last24">\n24 horas</string>
+    <string name="home_lastweek">\nUltima semana</string>
+    <string name="home_month">\nUltimo mes</string>
+    <string name="title_activity_video_search">VideoSearchActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_brand_detail">BrandDetailActivity</string>
+
+
+    <!-- textos de pantalla marcas -->
+    <string name="all_brand">Todas</string>
+    <string name="my_brand">Mis marcas</string>
+
+    <!-- textos de pantalla sidebar -->
+    <string name="recent_activity">Últimas 24 horas</string>
+    <string name="recent_week_activity">Última semana</string>
+    <string name="recent_month_activity">Último mes</string>
+    <string name="sidebar_brands">Marcas</string>
+    <string name="sidebar_favorite">Favoritos</string>
+    <string name="sidebar_setup">Ajustes</string>
+    <string name="sidebar_notification">Alertas</string>
+    <string name="sidebar_config">Configuración</string>
+    <string name="sidebar_logout">Cerrar Sesión</string>
+    <string name="title_activity_media_detail">MediaDetailActivity</string>
+
+    <!-- textos de pantalla favoritos -->
+    <string name="fav_title">Mis favoritos</string>
+    <string name="fav_empty">No tienes ningún contenido en tus favoritos.</string>
+    <string name="title_activity_fav_listfragment">favListfragment</string>
+    <string name="title_activity_video_land_scape">VideoLandScapeActivity</string>
+    <string name="title_activity_audio_detail">AudioDetailActivity</string>
+    <string name="favorite_remove">Quitar</string>
+    <string name="favorite_explain">Aquí encontraras todo el contenido al cual hayas marcado como favorito.</string>
+    <string name="favorite_swipe_explain">Para eliminar un favorito de esta lista, debes deslizar.</string>
+    <string name="favorite_done">Entiendo</string>
+
+    <string name="see_more">Ver más</string>
+    <string name="title_activity_media_detail_debug">MediaDetailDebugActivity</string>
+    <string name="title_activity_signup_success">SignupSuccessActivity</string>
+    <string name="title_activity_category_media">CategoryMediaActivity</string>
+
+    <!-- texts de pantalla historial-->
+    <string name="historial_title">Historial de usuario</string>
+    <string name="sidebar_historial">Historial</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="historial_explain">Aquí veras todas las acciones que realizas en Brandcheck.</string>
+    <string name="historial_empty">Aún no visualizas ninguna media en Brandcheck.</string>
+    <string name="historial_done">Entiendo</string>
+    <string name="historial_action_add_fav">Agregado  a tus favoritos</string>
+    <string name="historial_action_remove_fav">Quitado de tus favoritos</string>
+    <string name="historial_action_view_content">Haz visto este contenido</string>
+    <string name="historial_action_listened_content">Haz escuchado este contenido</string>
+    <string name="historial_count">action_count|%@ veces</string>
+    <string name="title_activity_media_draggable_detail">MediaDraggableDetailActivity</string>
+
+
+    <!-- textos generales-->
+    <string name="waiting">Espere</string>
+    <string name="title_activity_media">MediaActivity</string>
+    <string name="title_activity_login2">Sign in</string>
+
+
+    <string name="not_content">No tenemos contenido que mostrar</string>
+</resources>

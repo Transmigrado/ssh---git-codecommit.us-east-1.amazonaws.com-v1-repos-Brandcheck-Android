@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="io.ebinar.infolder.activities.ConfigActivity"
+    android:background="@color/white">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="16dp">
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:theme="@style/TextLabel"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/first_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/config_first_name"
+                    android:maxLines="1"
+                    android:textColor="@color/material_grey_400"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:theme="@style/TextLabel"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/last_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/config_last_name"
+                    android:maxLines="1"
+                    android:textColor="@color/material_grey_400"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:theme="@style/TextLabel">
+
+                <AutoCompleteTextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/config_email"
+                    android:maxLines="1"
+                    android:textColor="@color/material_grey_400"
+                    android:singleLine="true" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alertame los avisos nuevos"
+                android:textColor="@color/black"
+                android:id="@+id/notify_new_media"
+                android:layout_marginTop="10dp"
+                android:theme="@style/checkBoxStyle"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alertarme nuevas marcas"
+                android:id="@+id/notify_new_brand"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:theme="@style/checkBoxStyle"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar"
+                android:id="@+id/config_send"
+                android:textColor="@color/white"
+                android:layout_above="@+id/login_recover"
+                android:layout_alignStart="@+id/login_recover"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_orange_button"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Salir de Brandcheck"
+                android:id="@+id/config_logout"
+                android:textColor="@color/black"
+                android:layout_above="@+id/login_recover"
+                android:layout_alignStart="@+id/login_recover"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/rounded_grey"
+                android:layout_marginTop="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

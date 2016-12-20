@@ -1,0 +1,1 @@
+include ':app', ':blueprint', ':EventBus', ':Picker', ':aws-android-sdk-sns-2.3.3', ':aws-android-sdk-core-2.3.3'

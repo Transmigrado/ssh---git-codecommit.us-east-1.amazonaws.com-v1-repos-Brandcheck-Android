@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Blueprint</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- timeago -->
+    <string name="time_ago_prefix">Hace</string>
+    <string name="time_ago_suffix"></string>
+    <string name="time_ago_seconds">menos de un minuto</string>
+    <string name="time_ago_minute">un minuto</string>
+    <string name="time_ago_minutes">%d minutos</string>
+    <string name="time_ago_hour">una hora</string>
+    <string name="time_ago_hours"> %d horas</string>
+    <string name="time_ago_day">un día</string>
+    <string name="time_ago_days">%d días</string>
+    <string name="time_ago_month">un mes atrás</string>
+    <string name="time_ago_months">%d meses</string>
+    <string name="time_ago_year">Hace un año</string>
+    <string name="time_ago_years">%d años</string>
+    <string name="just_now">Ahora mismo</string>
+</resources>

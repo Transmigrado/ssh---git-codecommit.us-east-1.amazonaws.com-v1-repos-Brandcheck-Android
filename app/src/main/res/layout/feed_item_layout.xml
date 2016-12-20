@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="4dp">
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5">
+
+                <RelativeLayout
+                    android:layout_width="130dp"
+                    android:layout_height="72dp"
+                    android:background="@color/black"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/thumb_content"
+                    android:layout_centerInParent="true">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="72dp"
+                        android:id="@+id/feed_thumb"
+                        android:scaleType="fitXY" />
+
+                    <!--
+                    <com.asteroid.megatime.infolder.font.FontelloTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fontello_play"
+                        android:textSize="16sp"
+
+                        android:id="@+id/play_icon"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp" />
+                    -->
+
+                    <ImageView
+                        android:id="@+id/play_icon"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:src="@mipmap/ic_video" />
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:paddingRight="10dp">
+
+
+                <io.ebinar.infolder.font.RobotoTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/video_description"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/main_color_grey_500"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:orientation="horizontal" android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="0dp"
+                    android:layout_alignParentBottom="true">
+
+                    <io.ebinar.infolder.view.ShapeImageView
+                        android:id="@+id/brand_image"
+                        style="@style/ImageViewStyle"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        app:siShape="@raw/a"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true" />
+
+                    <io.ebinar.infolder.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ripley"
+                        android:id="@+id/brand_name"
+                        android:textSize="10sp"
+                        android:textColor="@color/main_color_grey_400"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerVertical="true" />
+
+                    <io.ebinar.infolder.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ripley"
+                        android:id="@+id/date"
+                        android:textSize="10sp"
+                        android:textColor="@color/main_color_grey_400"
+                        android:layout_alignParentTop="true"
+                        android:layout_toStartOf="@+id/brand_image"
+                        android:layout_centerVertical="true" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        >
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/fake_footer"></LinearLayout>
+
+
+</LinearLayout>

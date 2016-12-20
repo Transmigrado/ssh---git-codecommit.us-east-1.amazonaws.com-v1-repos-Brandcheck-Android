@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "889976843409",
+    "firebase_url": "https://test-c28a8.firebaseio.com",
+    "project_id": "test-c28a8",
+    "storage_bucket": "test-c28a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889976843409:android:90c44cfa55b9af7e",
+        "android_client_info": {
+          "package_name": "io.ebinar.infolder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889976843409-onu2n26sms6hhsemh41kglmckljum5po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABRwJoTrNJ1Ve2oUOrl0VZfvKK0sMm6kg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

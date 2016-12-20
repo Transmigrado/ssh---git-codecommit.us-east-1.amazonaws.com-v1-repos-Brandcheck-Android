@@ -1,0 +1,83 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="io.ebinar.infolder.activities.MediaActivity">
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="@string/sidebar_setup"
+        android:orderInCategory="200"
+        >
+        <menu>
+            <!--
+            <item android:id="@+id/action_notification"
+                android:title="@string/sidebar_notification"
+                android:orderInCategory="200"
+                app:showAsAction="always"
+                android:icon="@mipmap/notifications"
+                app:actionLayout="@layout/alertitem"
+                />
+            -->
+
+            <item android:id="@+id/action_config"
+                android:title="@string/sidebar_config"
+                android:orderInCategory="200"
+                app:showAsAction="always"
+                android:icon="@mipmap/engine"
+                />
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/action_recent_activity"
+        android:title="@string/recent_activity"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/access_time"
+        android:checkable="true"
+        />
+
+    <item android:id="@+id/action_week_activity"
+        android:title="@string/recent_week_activity"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/last_week"
+        android:checkable="true"
+        />
+
+    <item android:id="@+id/action_month_activity"
+        android:title="@string/recent_month_activity"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/last_month"
+        android:checkable="true"
+        />
+
+    <item android:id="@+id/action_brands"
+        android:title="@string/sidebar_brands"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_sidebar_brand"
+        android:checkable="true"
+        />
+
+    <item android:id="@+id/action_favorites"
+        android:title="@string/sidebar_favorite"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/sidebar_fav_icon"
+        android:checkable="true"
+        />
+
+    <item
+        android:id="@+id/action_historial"
+        android:title="@string/sidebar_historial"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@mipmap/ic_historial"
+        android:checkable="true"
+        />
+
+
+
+</menu>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="180dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/historial_icon"
+        android:layout_marginLeft="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Haz mirado este video"
+                android:id="@+id/historial_action_text" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_orange_button"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:id="@+id/historial_count_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:text="4 veces"
+                    android:id="@+id/historial_count" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:orientation="vertical" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cardview"
+            android:layout_marginTop="10dp"
+            >
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="4dp">
+
+                <RelativeLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5">
+
+                    <RelativeLayout
+                        android:layout_width="130dp"
+                        android:layout_height="72dp"
+                        android:background="@color/black"
+                        android:layout_alignParentTop="false"
+                        android:layout_alignParentRight="false"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:id="@+id/thumb_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/feed_thumb"
+                            android:scaleType="centerCrop" />
+
+                        <!--
+                        <com.asteroid.megatime.infolder.font.FontelloTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fontello_play"
+                            android:textSize="16sp"
+
+                            android:id="@+id/play_icon"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginBottom="4dp" />
+                        -->
+
+                        <ImageView
+                            android:id="@+id/play_icon"
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:src="@mipmap/ic_type_media_image" />
+
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:paddingRight="10dp">
+
+
+                    <io.ebinar.infolder.font.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/video_description"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/main_color_grey_500"
+                        android:textSize="12sp" />
+
+                    <RelativeLayout
+                        android:orientation="horizontal" android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="0dp"
+                        android:layout_alignParentBottom="true">
+
+                        <!--
+                        <com.asteroid.megatime.infolder.view.ShapeImageView
+                            android:id="@+id/brand_image"
+                            style="@style/ImageViewStyle"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            app:siShape="@raw/a"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true" />
+                        -->
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:id="@+id/fake_footer"></LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="2dp"
+        android:layout_height="160dp"
+        android:background="@color/transparent"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/linearLayout2">
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/historial_icon"
+        android:src="@mipmap/ic_historial_eye"
+        android:layout_toEndOf="@+id/linearLayout2"
+        android:layout_marginLeft="-15dp"
+        android:layout_centerVertical="true" />
+</RelativeLayout>
